@@ -1,0 +1,129 @@
+body {
+    background: linear-gradient(to left, #5a5a5a, #8a8a8a) !important;
+    height: 100vh;
+    width: 100%;
+}
+
+main {
+    color: rgb(255, 129, 84);
+    font-family: 'Courier New', Courier, monospace !important;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    background-color: #909090;
+    height: 8vh;
+    padding-top: 10px;
+    color: rgb(68, 43, 5);
+    font-weight: bold;
+}
+
+#main-inicio {
+    border-radius: 20%;
+    background-color: #696969;
+    width: 50vw;
+    height: 60vh;
+    padding: 40px 0 0 50px;
+    margin: auto;
+    margin-top: 40px;
+    border: 4px solid #13112b;
+}
+
+#main-categorias {
+    padding: 50px 170px 0 90px;
+}
+
+.tabla-categorias {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.tabla-categorias th,
+.tabla-categorias td {
+    border: 1px solid #2e3649;
+    padding: 10px;
+    text-align: left;
+}
+
+.tabla-categorias th {
+    background-color: #13112b;
+    font-weight: bold;
+}
+
+.tabla-categorias tbody tr:nth-child(even) {
+    background-color: #2e3649;
+}
+
+#main-articulos {
+    padding: 30px 50px 0 50px;
+}
+
+.contenedor {
+    background-color: #f5f7fa;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 1000px;
+    height: 25vh;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.grupo {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo label {
+    background-color: #dce2e8;
+    padding: 5px 10px;
+    border-radius: 6px 6px 0 0;
+    font-weight: bold;
+    border-bottom: 2px solid #333;
+}
+
+.grupo input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline-color: #7ea7ff;
+    width: 250px;
+}
+
+.botones {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    padding: 8px 16px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buscar {
+    background-color: #1677ff;
+}
+
+.agregar {
+    background-color: #1677ff;
+}
