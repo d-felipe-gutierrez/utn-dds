@@ -2,17 +2,21 @@
 
 This repository contains the practical assignments developed during the **Software Development (DDS)** course at the **National Technological University – Córdoba Regional Faculty (UTN FRC)**, as part of the **Information Systems Engineering** degree.
 
+The goal of this repository is to document my academic work and share it publicly for reference and learning purposes.
+
 ---
 
 ## 🧠 About the course
 
 The DDS course focuses on:
-- Object-Oriented Design
-- **SOLID** principles
-- Design Patterns (Strategy, Observer, Composite, etc.)
-- Hexagonal Architecture
+- Object-Oriented Software Design
+- SOLID principles and design patterns
+- Fullstack web development practices
+- Hexagonal architecture
+- Layered system design
+- RESTful APIs
+- Database modeling and persistence with Sequelize
 - Test-Driven Development (TDD)
-- Refactoring and clean code practices
 
 ---
 
@@ -20,23 +24,24 @@ The DDS course focuses on:
 
 The repository is organized as follows:
 
-- `1-introduccion/` – Assignment #1: Domain modeling and object-oriented design
-- `2-backend/` – Assignment #2: Multi-layer system and business logic
-- `3-frontend/` – Assignment #3: Final integrative project using TDD and hexagonal architecture
-- `resources/` – Supporting materials: assignment instructions, UML diagrams, and documentation
-- `README.md` – This file
-
-Each folder contains the corresponding code, documentation, and models for the practical work developed during the course.
+- `1-introduction/` # Basic exercises and core design principles
+- `2-backend/` # Node.js + Express backend logic and API development
+- `3-frontend/` # React-based frontends, styling and interactions
+- `resources/` # Exercise statements, diagrams, notes, utilities
+- `exams/` # Solved practice exams and past papers
+- `README.md`
 
 ---
 
 ## 🛠️ Technologies used
 
-- 🟨 Java  
-- ⚙️ IntelliJ IDEA / Eclipse  
-- 📂 UML tools (PlantUML, StarUML)  
-- ✅ JUnit (unit testing)  
-- 🔧 Git & GitHub (version control)
+- **Node.js** + **Express.js** – Backend server and REST APIs  
+- **Sequelize** + **SQLite** – ORM and relational database  
+- **React.js** – Frontend framework  
+- **HTML5**, **CSS3**, **JavaScript (ES6+)** – Web development stack  
+- **Bootstrap** – Styling and layout  
+- **JSON** – Data structures and API exchange  
+- **Git & GitHub** – Version control and project management
 
 ---
 
@@ -52,5 +57,5 @@ Information Systems Engineering student – UTN FRC
 
 ## 📄 License
 
-This repository is shared for educational purposes only.  
-**Reuse of this content for academic submissions is strictly prohibited without permission.**
+This repository is shared publicly for educational and portfolio purposes.  
+**Feel free to explore and learn from it, but do not copy its content for academic submissions or commercial use.**
