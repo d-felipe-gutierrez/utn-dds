@@ -29,7 +29,7 @@ The repository is organized as follows:
 - `3-frontend/` # React-based frontends, styling and interactions
 - `resources/` # Exercise statements, diagrams, notes, utilities
 - `exams/` # Solved practice exams and past papers
-- `tp-integrador/` # Solved Integrative Practical Assignment
+- `integrative-assigmnment/` # Solved Integrative Practical Assignment
 - `README.md`
 
 ---
